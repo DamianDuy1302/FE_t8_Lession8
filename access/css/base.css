@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --color-main: #103178;
+    --color-text: #667aa7;
+    --color-yellow: #ffc800;
+    --color-bg: #f1f2f6;
+
+    --font: 'Inria Serif', serif;
+}
+
+*{
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.button-highlight{
+    background-color: #ffc800;
+    border: 2px solid var(--color-yellow);
+    color: #fff;
+    border-radius: 24px;
+}
+.button-highlight:hover{
+    background-color: #fff; 
+    color: var(--color-yellow);
+}
+.button-highlight2{
+    background-color: var(--color-main);
+    border: 2px solid var(--color-main);
+    color: #fff;
+    border-radius: 24px;
+}
+.button-highlight2:hover{
+    background-color: #fff; 
+    color: var(--color-main);
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-flex;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (min-width: 1240px){
+    .container{
+        /* margin: 0 20px; */
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .container{
+        max-width: 960px;
+        padding: 0 32px;
+    }  
+}
+@media (max-width: 991.98px){
+    .container{
+        max-width: 720px;
+        padding: 0 32px;
+    }  
+}
+@media (max-width: 767.98px){
+    .container{
+        max-width: 540px;
+        padding: 0 32px;
+    }  
+}
+@media (max-width: 575.98px){
+    .container{
+        max-width: 100%;
+        padding: 0 16px;
+    }  
+}
+

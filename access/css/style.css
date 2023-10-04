@@ -690,6 +690,7 @@
 .section-7 .container .inner-wrap .inner-map{
     width: 55%;
     height: 100%;
+
 }
 .section-7 .container .inner-wrap .inner-map iframe{
     width: 100%;
@@ -753,10 +754,19 @@
         flex-wrap: wrap;       
     }
     .section-7 .container .inner-wrap .inner-content{
-        width: 90%;
+        width: 100%;
     }
     .section-7 .container .inner-wrap .inner-map{
-        width: 90%;      
+        width: 100%;      
+    }
+}
+@media (max-width: 576.98px){
+    .section-7 .container .inner-wrap .inner-content{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .section-7 .container .inner-wrap .inner-map{
+        width: 100%;      
     }
 }
 
